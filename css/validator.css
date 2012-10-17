@@ -1,0 +1,104 @@
+.onLoad
+{
+    background:#E9FFEB url(../images/home/onLoad.gif) no-repeat 3px 3px;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+} 
+
+
+
+.onCorrect{ 
+	display:inline-block; 
+	height:22px; 
+	padding-left:15px; 
+	margin-left:10px; 
+	vertical-align:middle; 
+	padding-right:5px;
+	margin-top:5px;
+	color:#4ddb4d;
+}
+
+
+.onError .onFocus p
+{
+	list-style-type:none;
+	list-style-image:none;
+	line-height : 2;
+}
+.onError .onFocus span
+{
+	color : #000;
+	font-size : 12px;
+}
+
+
+.onFocus{ 
+	width:287px; 
+	height:20px; 
+	left:0px;top:0px;
+	padding:0px;
+	margin::0px;
+}
+
+.onFocus_top
+{
+	display:block;
+	width:287px;
+	min-height:15px;
+	_height:10px;
+}
+.onFocus_bot
+{
+	display:block;
+	width:287px;
+	height:5px;
+	overflow:hidden;
+}
+
+
+
+.onError
+{ 
+	width:287px; 
+	height:20px; 
+	left:0px;top:0px;
+	padding:0px;
+	margin::0px;
+	color:red;
+}
+
+.onError_top
+{ 
+	display:block; 
+	width:287px; 
+	line-height:15px; 
+	_height:10px; 
+	color:red;
+}
+.onError_top a {color:red;}
+.onError_bot
+{ 
+	display:block; 
+	width:287px; 
+	height:5px; 
+	overflow:hidden;
+}
+
+.input_public
+{
+	border:#C1C1C1 1px solid;font-size:14px;line-height:20px; height:26px;padding-left:4px;
+}
+
+.input_error {
+	
+	background-color:#FBE2E2;border-color:#D28C8C;color:#A63B3B
+}
+
+.input_focus {
+    background-color:#FFC;border-color:#C6C69E
+}
+.input_correct {
+	background-color:#FBFBFB;color:#444
+}

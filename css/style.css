@@ -1,0 +1,375 @@
+* {
+margin : 0;
+padding : 0;
+}
+img {
+border : 0;
+}
+body {
+font : 13px 'Century Gothic', 'Microsoft YaHei', Verdana, Tahoma, Lucida Grande, Arial, sans-serif;
+color : #555;
+}
+.clear {
+clear : both;
+}
+:focus {
+outline : 0;
+}
+.err{color:#ccc;font-size:14px;}
+a{
+text-decoration : none;
+color:#fff;
+}
+a:hover {
+text-decoration : none;
+color:#090;
+}
+
+ul li {list-style: none;}
+.error2{
+	font-size:13px;
+	color:red;
+}
+#head {width:100%;margin:0 auto;float:left;}
+.curren{background:url(../images/home/l.png); width:100px;float:left;height:60px;color:#01cc00;}
+.curren a{color:#01cc00;font-size:14px;font-weight: bold;}
+.nav {
+float:left;
+background: url(../images/home/nav.png);
+height:60px;
+width:100%;
+}
+.nav li {
+float:left;
+text-align:center;
+list-style-type:none;
+height:60px;
+line-height: 60px;
+}
+.nav li.home {
+font-size:26px;
+font-family: bold;
+padding-right:10px;
+width:120px;
+}
+.nav li.home a{
+font-size:26px;
+font-family: bold;
+padding-right:10px;
+width:120px;
+}
+.nav li.home a:hover{
+background:url('../images/home/lh.png');float:left;
+width:120px;
+color:#fff;
+}
+.nav li.home a:active{
+background:url('../images/home/la.png');float:left;
+width:120px;
+color:#fff;
+}
+.nav .list {
+float:left;
+padding-left:10px;
+width:200px;
+}
+.nav .list a{
+float:left;
+padding-right:10px;
+width:200px;
+}
+.nav .list a:hover{background:url('../images/home/lh.png');float:left;width:200px;height:60px;color:#fff;}
+.nav .list a:active{background:url('../images/home/lh.png');float:left;width:200px;height:60px;color:#fff;}
+
+.nav li a {
+width:100px;
+float:left;
+
+}
+.nav li a:hover{background:url('../images/home/lh.png');float:left;width:100px;height:60px;color:#fff;}
+.nav li a:active{background:url('../images/home/la.png');float:left;width:100px;height:60px;color:#fff;}
+
+#main{width:100%;margin:0 auto;padding:10px;float:left;}
+#main .search{width:650px;margin:0 auto;padding:10px;margin-top:70px;}
+#main .search .from{width:550px;margin:0 auto;padding:10px;}
+
+#main .search .text{ 
+	width: 360px;
+	height: 45px;
+	margin-right: 6px;
+	line-height: 45px;
+	padding: 2px 3px;
+	border: 1px solid #01cc00;
+	font-size:19px;
+	color:#01cc00;
+}
+
+#main .search .button{
+	height: 45px;
+	width: 120px;
+	border: 1px solid #01cc00;
+	border-radius: 2px 2px 2px 2px;
+	background: #01cc00;
+	padding-right: 3px;
+	cursor: pointer;
+	color:#fff;
+	font-size:20px;
+	line-height: 45px;
+}
+#main .search .button:hover{
+	background-color: #4dda4d;
+}
+.regiest td{
+	padding:5px;
+}
+.regiest td.line{
+	width:105px;
+}
+.regiest .pt{
+	font-size:17px;
+}
+.regiest .onError{
+	margin-left:20px;
+}
+.regiest #username,#email,#password,#confirm_password,#verify{
+	width:230px;
+	height:35px;
+	line-height:35px;
+}
+.regiest .formbutton{
+	font-size:22px;
+	width:150px;
+	height:50px;
+	background: #01cc00;
+	color:#fff;
+	border:0;
+	
+}
+.regiest .formbutton:hover{
+	background:#4dda4d;
+}
+
+#msgtip{width:220px;height:30px;line-height:30px;color:red;float:left;font-size:15px;}
+
+/*userinfo*/
+
+.topnav{margin-top:10px;height:45px;line-height: 45px;}
+.topnav a{color:#cfcfcf;text-decoration:underline;}
+.lnav{
+	float:left;
+	color:#cfcfcf;
+	font-size: 17px;
+}
+.topnav .lsearch{
+	float:right;
+}
+.topnav .lsearch .text{ 
+	width: 180px;
+	height: 35px;
+	margin-right: 6px;
+	line-height: 35px;
+	padding: 2px 3px;
+	border: 1px solid #01cc00;
+	font-size:17px;
+	color:#01cc00;
+}
+
+.topnav .lsearch .button{
+	height: 35px;
+	width: 60px;
+	border: 1px solid #01cc00;
+	border-radius: 2px 2px 2px 2px;
+	background: #01cc00;
+	padding-right: 3px;
+	cursor: pointer;
+	color:#fff;
+	font-size:15px;
+}
+.topnav .lsearch .button:hover{
+	background-color: #4dda4d;
+}
+.welcome{height:100px;}
+.welcome p{
+	margin:10px 0 10px 0;
+}
+.welcome .wecl{
+	font-size: 22px;
+	color:#01cc00;
+	font-weight: bold;
+}
+.welcome .formbutton{
+	font-size:22px;
+	width:150px;
+	height:50px;
+	background: #01cc00;
+	color:#fff;
+	border:0;
+	line-height: 50px;
+	text-align: center;
+	padding:10px 15px 10px 10px;
+}
+.welcome .formbutton a{color:#fff;}
+.welcome .formbutton:hover{
+	background:#4dda4d;
+}
+.welcome .wld{
+	background: #fff;
+	line-height: 50px;
+	height: 50px;
+	font-size: 20px;
+	margin-right:10px;
+}
+
+.inp{
+	font-size: 20px;
+	color:#000;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+/*userinfo info*/
+.userinfo td{
+	padding:5px;
+}
+.userinfo .pt{
+	font-size:17px;
+	font-weight: bold;
+	color:#000;
+}
+.userinfo .error{
+	margin-left:20px;
+}
+.userinfo .inp{
+	font-size: 20px;
+	color:#000;
+	font-weight: bold;
+	padding-top:10px;
+	margin-bottom: 15px;
+}
+.userinfo #username,#email,#password,#confirm_password,#verify{
+	width:230px;
+	height:35px;
+	font-size: 15px;
+	padding-left:5px;
+}
+.continfo{
+	border-collapse:collapse;
+}
+.continfo .pt{
+	font-size:17px;
+	font-weight: bold;
+	color:#000;
+	text-align: center;
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+.continfo .ptl{
+	font-size:17px;
+	font-weight: bold;
+	color:#000;
+	text-align: left;
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+.userinfo .continfo #continfo{
+	width:700px;
+	height:35px;
+	font-size: 15px;
+	padding-left:5px;
+}
+.continfo .formbutton{
+	font-size:22px;
+	width:150px;
+	height:50px;
+	background: #01cc00;
+	color:#fff;
+	border:0;
+	line-height: 50px;
+	text-align: center;
+}
+.continfo .formbutton a{color:#fff;}
+.continfo .formbutton:hover{
+	background:#4dda4d;
+}
+
+
+.msg{
+	margin-top:10px;
+	float:left;
+}
+.msglist{
+	width:990px;
+	float:left;
+}
+.msglist dl{
+	float:left;
+	width:980px;
+	margin-bottom: 10px;
+	
+}
+.msglist .name{
+	color:#000;
+	font-size:16px;
+	float:left;
+	margin-left:5px;
+	margin-right: 20px;
+	font-weight: bold;
+	
+}
+.msglist .time{
+	color:#000;
+	font-size:16px;
+	float:right;
+	margin-right: 10px;
+	
+}
+.msglist .reply{
+	float:left;
+	margin-left: 20px;
+	
+}
+.msglist .rtime{
+	color:#000;
+	font-size:16px;
+	float:right;
+	margin-right: 30px;
+	
+}
+.msglist dl dd{
+	float:left;
+	font-size:16px;
+}
+.subject{
+	float:left;
+	width:990px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.subject .subject-text{
+	width:970px;
+	height:100px;
+	margin:10px;
+}
+.msgbotton{
+	float:left;
+	width:100%;
+	overflow: hidden;
+	margin:10px;
+	text-align: center;
+}
+
+.msgbotton .submit{
+	font-size:22px;
+	width:150px;
+	height:50px;
+	background: #01cc00;
+	color:#fff;
+	border:0;
+	line-height: 50px;
+	text-align: center;
+}
+.msgbotton .submit a{
+	color:#fff;
+}
+.msgbotton .submit a:hover{
+	background:#4dda4d;
+}

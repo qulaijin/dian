@@ -1,0 +1,117 @@
+* {
+margin : 0;
+padding : 0;
+}
+img {
+border : 0;
+}
+body {
+font : 13px 'Century Gothic', 'Microsoft YaHei', Verdana, Tahoma, Lucida Grande, Arial, sans-serif;
+color : #555;
+}
+.clear {
+clear : both;
+}
+:focus {
+outline : 0;
+}
+.err{color:#ccc;font-size:14px;}
+a{
+text-decoration : none;
+color:#fff;
+}
+a:hover {
+text-decoration : none;
+color:#090;
+}
+
+.error2{
+	font-size:13px;
+	color:red;
+}
+#warp {width:1020px; margin:0 auto;}
+#head {width:1020px;overflow: hidden;margin-top:10px;}
+.curren{background:url(../images/home/l.png); width:100px;float:left;height:60px;color:#01cc00;}
+.curren a{color:#01cc00;font-size:14px;font-weight: bold;}
+.nav {
+float:left;
+background: url(../images/home/nav.png) no-repeat;
+height:60px;
+width:1020px;
+}
+.nav li {
+float:left;
+text-align:center;
+list-style-type:none;
+margin-right:10px;
+height:58px;
+line-height: 58px;
+}
+.nav li.home {
+font-size:20px;
+font-family: bold;
+padding-right:10px;
+}
+.nav li.home a{
+font-size:20px;
+font-family: bold;
+padding-right:10px;
+}
+.nav .list {
+float:right;
+padding-left:10px;
+
+}
+
+.nav li a {
+width:100px;
+float:left;
+
+}
+.nav li a:hover{background:url('../images/home/lh.png');float:left;width:100px;height:58px;}
+
+#main{width:1000px;margin:0 auto;padding:10px;}
+
+
+#msgtip{width:220px;height:30px;line-height:30px;color:red;float:left;font-size:15px;}
+
+#messagebox {
+    margin-top: 150px;
+    padding: 1px;
+    width: 500px;
+    border: solid 1px #01cc00;
+    background: #faf8ed;
+    margin:0 auto;
+}
+#messagebox-title {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    background-color: #01cc00;
+    padding: 5px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    font-size:16px;
+}
+#messagebox-content {
+    color: #01cc00;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size:16px;
+}
+#messagebox-content div{margin:10px;}
+#messagebox-content a{
+    color: #090;
+    background-color: #fff;
+    text-align: center;
+    font-size:16px;
+}
+#messagebox-content a:hover{
+    color: #01cc00;
+    background-color: #fff;
+    text-align: center;
+    font-size:16px;
+}
