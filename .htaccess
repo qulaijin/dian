@@ -2,4 +2,4 @@ RewriteEngine on
 
 RewriteCond $1 !^(index\.php|images|js|css|robots\.txt)   
 
-RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteRule ^(.*)$ /dianshi/index.php/$1 [L]

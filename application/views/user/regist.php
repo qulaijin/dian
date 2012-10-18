@@ -27,7 +27,7 @@ $(document).ready(function(){
 		$("#username")
 		.formValidator({
 			onShowText:"",
-			onShow:"可输入4~30位,<br>包含数字、英文和中文",
+			onShow:"",
 			onFocus:"可输入4~30位<br>包含数字、英文和中文",
 			onCorrect:"完成",
 			})
@@ -50,17 +50,8 @@ $(document).ready(function(){
 			onError : "该用户名已存在，请更换用户名",
 			onWait : "正在对用户名进行合法性校验，请稍候..."
 		});
-		$("#password")
-		.formValidator({
-			onShow:"至少6位,<br>包含数字、英文和中文",
-			onFocus:"至少6位,<br>包含数字、英文和中文",
-			onCorrect:"完成"
-		})
-		.inputValidator({
-			min:6,
-			max:16,
-			onError:"请输入密码"
-		});
+
+				$("#password").formValidator({onShow:"",onFocus:"至少6位,<br>包含数字、英文和中文",onCorrect:"完成"}).inputValidator({min:6,empty:{leftEmpty:false,rightEmpty:false,emptyError:"密码两边不能有空符号"},onError:"请输入密码"});
 /*
 		$("#confirm_password")
 		.formValidator({
@@ -85,7 +76,7 @@ $(document).ready(function(){
 			*/
 		$("#email")
 		.formValidator({
-			onShow:"输入常用E-mail,<br>找回密码时可用",
+			onShow:"",
 			onFocus:"输入常用E-mail,<br>找回密码时可用",
 			onCorrect:"完成",
 			defaultValue:"@"})
@@ -113,7 +104,7 @@ $(document).ready(function(){
 		$("#verify")
 			.formValidator(
 				{
-					onShow: "输入下面的验证码",
+					onShow: "",
 					onFocus: "输入下面的验证码",
 					onCorrect: "完成"
 				})
